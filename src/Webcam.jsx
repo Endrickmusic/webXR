@@ -42,7 +42,7 @@ export default function WebcamFeed() {
   })
 
   return (
-    <mesh position={[0, 0, -15]}>
+    <mesh position={[0, 0, -15]} scale-x={-1}>
       <planeGeometry args={[16, 9]} />
       <meshBasicMaterial
         ref={materialRef}
